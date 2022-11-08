@@ -5,7 +5,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-    @GetMapping("/greeting")
+    @GetMapping("/")
     public ModelAndView showGreeting(){
         return new ModelAndView("/greeting");
     }
